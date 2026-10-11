@@ -1,0 +1,10 @@
+name: TDS GA0
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f1002328@ds.study.iitm.ac.in
+        run: echo "TDS GA0 workflow completed"
